@@ -7,9 +7,9 @@ DSView — это GUI для приборов DreamSourceLab (логически
 Все декодеры протоколов реализованы в виде модулей Python и загружаются DSView из библиотеки `libsigrokdecode`.  
 Данный репозиторий содержит два расширения родного декодера SPI-TPM:
 
-- **pd1.0(ClevisKey).py**  
+- **pd(ClevisKey).py**  
   Извлекает только ключ Clevis.
-- **pd1.1(ClevisKey+ClevisJSON).py**  
+- **pd(ClevisKey+ClevisJSON).py**  
   Дополнительно извлекает полный JSON-объект, где хранится ключ. Рекомендуется к использованию.
 
 ## Установка
