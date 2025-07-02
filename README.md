@@ -20,8 +20,8 @@ DSView — это GUI для приборов DreamSourceLab (логически
    - **Linux**: `/usr/local/share/libsigrokdecode4DSL/decoders/spi_tpm`
 3. Сделайте резервную копию родного `pd.py`.
 4. Скопируйте из этого репозитория один из кастомных декодеров:
-   - `pd1.0(ClevisKey).py`
-   - `pd1.1(ClevisKey+ClevisJSON).py`
+   - `pd(ClevisKey).py`
+   - `pd(ClevisKey+ClevisJSON).py`
 5. Переименуйте выбранный файл в `pd.py`.
 
 ## Ссылки
